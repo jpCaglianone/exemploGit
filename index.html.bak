@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang='pt-br'>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Site desenvolvido para AT de HTML/CSS do instituto Infnet">
+  	<meta name="keywords" content="Deputados, Bancadas, Partidos, Plenárias, Assestment">
+  	<meta name="author" content="João Pedro S. Caglianone">
+	<link href="../../Downloads/reset.css" rel="stylesheet" type="text/css">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<title>Assestment</title>
+</head>
+
+<body>
+	<header>
+		<div id='logo'>
+			<img src="imagens/logo.png" alt='Logo' />
+			<p>Dados abertos</p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#inicio" title='Sessão inicial'>Inicio</a></li>
+				<li><a href="#deputados" title='Sessão Deputados'>Deputados</a></li>
+				<li><a href="#partidos" title='Sessão Partidos'>Partidos</a></li>
+				<li><a href="#bancadas" title='Sessão Bancadas'>Bancadas</a></li>
+				<li><a href="#noticias" title='Sessão Noticias'>Notícias</a></li>
+				<li><a href="#plenaria" title='Sessão Plenarias'>Plenárias</a></li>
+				<li><a href="#contatos" title='Sessão Contatos'>Contatos</a></li>
+				<li><a href="assestment.html" title='Página do assestment'>Assestment</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		
+		<div id="inicio">
+			<h1>QUEM SÃO OS DEPUTADOS</h1>
+			<h2>Conheça os deputados, seus partidos e legislaturas</h2>
+		</div>
+		
+		<div id="deputados">
+			<h2>DEPUTADOS</h2>
+			<div class="consulta">
+				<h3>Consulte aqui os deputados da legislatura atual</h3>
+				<form  action="#">
+					<input id='nome_deputado' type="text" name="name"  value='Nome do deputado' />
+					<br>
+					<a href="#deputados"><div id='botao_deputado'>BUSCAR</div></a>
+				</form>
+			</div>
+		<div id='fotos_deputados'>
+				<div class='foto'>
+					<img src="imagens/dep1.jpg" alt="foto deputado 1"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep2.jpg" alt="foto deputado 2"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep3.jpg" alt="foto deputado 3"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep4.jpg" alt="foto deputado 4"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep5.jpg" alt="foto deputado 5"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep6.jpg" alt="foto deputado 6"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep7.jpg" alt="foto deputado 7"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+				<div class='foto'>
+					<img src="imagens/dep8.jpg" alt="foto deputado 8"/>
+					<h4>Fulano de tal <br> (REDE-MG)</h4>
+					<ul>
+						<li>Legislaturas em que exerceu mandato: <strong>56°</strong></li>
+						<li>Particdos pelos quais já foi deputado: <strong>REDE, PL, PT</strong></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div id="partidos">
+			<h2>PARTIDOS</h2>
+			<div class="consulta">
+				<h3>Consulte aqui os partidos existentes</h3>
+				<form  action="#">
+					<input id='nome_partido' type="text" name="name"  value='Nome do deputado' />
+					<br>
+					<a href="#partidos"><div id='botao_partido'>BUSCAR</div></a>
+				</form>
+			</div>
+			<div id='fotos_partidos'>
+				<div class='foto'>
+					<img src="imagens/pl.png" alt="foto partido 1"/>
+					<h4><strong>Partido XPTO</strong></h4>
+					<div class='social_medias'>
+							<a href="https://www.facebook.com/pl22sp" title="Facebook Partido Liberal"><div class='facebook'></div></a>
+							<a href="https://www.instagram.com/pl22sp/" title="Instagram Partido Liberal"><div class='instagram'></div></a>
+							<a href="https://twitter.com/plnacional_?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Twitter Partido Liberal"><div class='twitter'></div></a>
+					</div>
+				</div>
+				<div class='foto'>
+					<img src="imagens/verde.png" alt="foto partido 2"/>
+					<h4><strong>Partido XPTO</strong></h4>
+					<div class='social_medias'>
+					
+							<a href="https://pt-br.facebook.com/partidoverde43" title="Facebook Partido Verde"><div class='facebook'></div></a>
+							<a href="https://www.instagram.com/pv43oficial/" title="Instagram Partido Verde"><div class='instagram'></div></a>
+							<a href="https://twitter.com/partidoverde?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Twitter Partido Verde"><div class='twitter'></div></a>
+					
+					</div>
+				</div>
+				<div class='foto'>
+					<img src="imagens/pt.png" alt="foto partido 3"/>
+					<h4><strong>Partido XPTO</strong></h4>
+					<div class='social_medias'>
+						
+							<a href="https://pt.org.br/tag/facebook/" title="Facebook Partido dos Trabalhadores"><div class='facebook'></div></a>
+							<a href="https://www.instagram.com/ptbrasil/channel/" title="Instagram Partido dos Trabalhadores"><div class='instagram'></div></a>
+							<a href="https://twitter.com/ptbrasii" title="Twitter Partido dos Trabalhadores"><div class='twitter'></div></a>
+						
+					</div>
+				</div>
+				<div class='foto'>
+					<img src="imagens/psd.png" alt="foto partido 4"/>
+					<h4><strong>Partido XPTO</strong></h4>
+					<div class='social_medias'>
+					
+							<a href="https://pt-br.facebook.com/psd.br" title="Facebook Partido Social Democrata"><div class='facebook'></div></a>
+							<a href="https://www.instagram.com/partidosocialdemocrata/" title="Instagram Partido Social Democrata"><div class='instagram'></div></a>
+							<a href="https://twitter.com/PSD_55?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="Twitter Partido Social Democrata"><div class='twitter'></div></a>
+			
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="bancadas">
+				<h2>BANCADAS</h2>
+				<h3>Principais bancadas do congresso</h3>
+			<table>
+				<caption>Tabela de Bancadas</caption>
+			<thead>
+			<tr>
+				<th>Partido/Bloco</th>
+				<th>Bancada</th>
+				<th>Lider/Representante</th>
+				<th>Nome do partido/bloco</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>PL</td>
+				<td>77</td>
+				<td>Abneu Cortês</td>
+				<td>Partido Liberal</td>
+			</tr>
+			<tr>
+				<td>PT</td>
+				<td>56</td>
+				<td>Reginaldo Lopes</td>
+				<td>Partido dos Trabalhadores</td>
+			</tr>
+			<tr>	
+				<td>PP</td>
+				<td>55</td>
+				<td>André Fufuca</td>
+				<td>Progressistas</td>
+			</tr>
+			<tr>
+				<td>União</td>
+				<td>55</td>
+				<td>Elmar Nascimento</td>
+				<td>União Brasil</td>
+			</tr>
+			<tr>
+				<td>PSD</td>
+				<td>47</td>
+				<td>Antônio Brito</td>
+				<td>Partido Social Democrático</td>
+			</tr>
+			<tr>
+				<td>REPUBLICANOS</td>
+				<td>43</td>
+				<td>Vinícius Carvalho</td>
+				<td>Republicanos</td>
+			</tr>
+			<tr>
+				<td>MDB</td>
+				<td>37</td>
+				<td>Isnaldo Bulhões Jr.</td>
+				<td>Movimento Democrático Brasileiro</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Total</td>
+				<td colspan="3">370</td>
+			</tr>
+		</tfoot>
+		</table>
+		<a href="#" title="Lista completa bancadas">Acesse a lista completa de bancadas</a>
+			
+		</div>
+				
+		<div id="noticias">
+			<h2>NOTÍCIAS</h2>
+			<div id='sessao'>
+				<figure>
+					<img src="imagens/combustivel.jpg" alt="imagem abastecimento de veículo" />
+				</figure>
+				<article>
+					<h3>Câmara discute mudanças em política de preços da Petrobrás</h3>
+					<p>A Câmara dos Deputados analisa 26 projetos que podem mudar as regras de composição de preços de combustíveis praticados pela Petrobras. Entenda como funciona a política de preços da empresa.
+Fonte: Agência Câmara de Notícias</p>
+					<h6>Fonte: Agência Câmara de Notícias</h6>
+					<button>ACESSE MAIS NOTICIAS</button>
+				</article>
+			</div>
+		</div>
+
+		<div id="plenaria">
+			<h2>PLENÁRIAS</h2> <br>
+			<embed src="https://www.youtube.com/watch?v=dHnzc9LfSps" allowfullscreen="true" />	
+			<p><img src="imagens/ao-vivo.png" alt="ícone ao vivo" />AGORA: Sessão para a votação de propostas legislativas</p>
+		</div>
+		
+		<div id="contatos">
+			<h2>CONTATOS</h2>
+			<div id='formulario'>
+				<form>
+						<input type='text' id='nome' required name='name' value='Nome'/>
+						<br><br>
+						<input type='email' id='email' required name='email' value='Email'/>
+						<br><br>
+        				<textarea id='comentarios'  required name='text' > Comentários</textarea>
+						<br><br>
+						<button> Enviar </button>
+				</form>
+				<article>
+						<h5>Fale Conosco</h5>
+						Deixe-nos suas críticas, elogios e sugestões
+
+
+						<h5>Destaques</h5>
+					<ul>
+						<li>Perguntas Frequentes</li>
+						<li>Acesso à Informação</li>
+						<li>Transparência na Câmara</li>
+						<li>Carta de serviços ao cidadão</li>
+					</ul>
+
+				</article>
+			</div>
+		</div>
+			
+	</main>	
+	
+	<footer>
+		<p>© Instituto Infnet - Assessment Interfaces com HTML e CSS</p>
+		<a href="#inicio"><img src="imagens/topo-botao.png" alt="botão de volta ao início"></a>
+	</footer>
+	
+</body>
+
+</html>
